@@ -17,26 +17,3 @@ abstract class Automovel implements Veiculo{
     }
 }
 
-class DelRey extends Automovel{
-    public function empurrar(){
-        
-    }
-}
-
-
-$carro = new DelRey();
-$carro->acelerar(240);
-$carro->frenar(250);
-echo $carro;
-
-
-
-
-
-
-
-
-
-
-
-
